@@ -1,27 +1,30 @@
-# PipesApp
+# Pipes App.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.9.
+Esta aplicación permite visualizar el uso de los pipes en Angular.
 
-## Development server
+La misma fue construida utilizando la librería de Prime NG, para brindar al usuario una vista amigable y estilizada de la aplicación.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Pueden visitar la App haciendo click en este link: https://pedantic-meitner-d4fd6b.netlify.app/
 
-## Code scaffolding
+### Notas:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Este proyecto fue generado con [Angular CLI] versión 12.2.9.
 
-## Build
+Recuerden reconstruir los módulos de Node:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```
+npm install
+```
 
-## Running unit tests
+Y luego, para probar la app en desarrollo, ejecuten el siguiente comando:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+ng serve -o
+```
 
-## Running end-to-end tests
+Para construir el build, recuerden:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```
+ng build --configuration=production
+```
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
