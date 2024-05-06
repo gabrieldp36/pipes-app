@@ -10,7 +10,7 @@ Pueden visitar la App haciendo click en este link: https://pipes-documentation-g
 
 ### Notas:
 
-Este proyecto fue generado con [Angular CLI] versión 12.2.9.
+Este proyecto fue generado con [Angular CLI] versión 13.0.1.
 
 Recuerden reconstruir los módulos de Node:
 
